@@ -1221,15 +1221,15 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 			
 		//B.C.
 		bc_format: {
-			year: "yyyy",
+			year: "yyyyyyyy",
 			month_short: "mmm",
 			month: "mmmm yyyy",
 			full_short: "mmm d",
-			full: "mmmm d',' yyyy",
+			full: "mmmm d',' yyyyyyyy",
 			time_no_seconds_short: "h:MM TT",
-			time_no_seconds_small_date: "dddd', 'h:MM TT'<br/><small>'mmmm d',' yyyy'</small>'",
-			full_long: "dddd',' mmm d',' yyyy 'at' hh:MM TT",
-			full_long_small_date: "hh:MM TT'<br/><small>'dddd',' mmm d',' yyyy'</small>'"
+			time_no_seconds_small_date: "dddd', 'h:MM TT'<br/><small>'mmmm d',' yyyyyyyy'</small>'",
+			full_long: "dddd',' mmm d',' yyyyyyyy 'at' hh:MM TT",
+			full_long_small_date: "hh:MM TT'<br/><small>'dddd',' mmm d',' yyyyyyyy'</small>'"
 		},
 			
 		setLanguage: function(lang) {
